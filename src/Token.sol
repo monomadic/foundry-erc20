@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 // Token.sol
-// Inflationary ERC20 token.
+// ERC20 token.
 
 import "solmate/tokens/ERC20.sol";
 

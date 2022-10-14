@@ -13,6 +13,8 @@ contract DeployLuxe is Script {
 				uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
 				vm.startBroadcast(deployerPrivateKey);
 				Token token = new Token("LuxeToken", "LUXE", 18, 1_000_000);
+				// add to unipair
+				// ..
 				vm.stopBroadcast();
     }
 }
